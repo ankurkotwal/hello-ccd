@@ -15,12 +15,7 @@ public class Application {
 
   @RequestMapping("/")
   public String index() {
-    String name = System.getenv("NAME");
-    if (name == null) {
-      name = "world";
-    }
-
-    return String.format("hello, %s", name);
+    return String.format("Hello, Cloud Community Day!", name);
   }
 
 }
