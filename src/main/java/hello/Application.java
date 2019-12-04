@@ -15,7 +15,7 @@ public class Application {
 
   @RequestMapping("/")
   public String index() {
-    return String.format("Hello, Cloud Community Day!", name);
+    return String.format("Hello, Cloud Community Day!");
   }
 
 }
