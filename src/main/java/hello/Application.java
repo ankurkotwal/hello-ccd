@@ -15,7 +15,16 @@ public class Application {
 
   @RequestMapping("/")
   public String index() {
-    return String.format("Hello, Cloud Community Day!");
+    return 
+      "<!DOCTYPE html>\n" +
+      "<html>\n" +
+      "  <head>\n" +
+      "  </head>\n" +
+      "  <body>\n" +
+      "    <h1>Hello, Cloud Community Day!</h1>\n" +
+      "  </body>\n" +
+      "</html>\n"
+    ;
   }
 
 }
